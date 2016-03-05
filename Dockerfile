@@ -29,11 +29,11 @@ RUN zypper --non-interactive --no-gpg-checks install \
     freeglut-devel \
     gcc \
     gcc-c++ \
-    iproute \
+    iproute2 \
     make \
     opencv-devel \
     psmisc \
-    qt4-devel \
+    libqt4-devel \
     qwt-devel \
     wget
 
