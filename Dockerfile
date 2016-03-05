@@ -26,6 +26,8 @@ RUN zypper --non-interactive --no-gpg-checks refresh && \
 RUN zypper --non-interactive --no-gpg-checks install \
     ant \
     boost-devel \
+    cmake \
+    git \
     freeglut-devel \
     gcc \
     gcc-c++ \
