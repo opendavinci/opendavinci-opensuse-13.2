@@ -23,7 +23,7 @@ MAINTAINER Christian Berger "christian.berger@gu.se"
 RUN zypper --non-interactive --no-gpg-checks refresh && \
     zypper --non-interactive --no-gpg-checks update
 
-RUN zypper --non-interactive --no-gpg-checks install && \
+RUN zypper --non-interactive --no-gpg-checks install \
     ant \
     boost-devel \
     freeglut-devel \
