@@ -1,4 +1,4 @@
-# Dockerfile for OpenDaVINCI on OpenSuSE 13.02
+# Dockerfile for OpenDaVINCI on OpenSuSE 13.2
 
 These Docker build instructions contain all required dependencies to run
 applications that are realized with OpenDaVINCI (http://www.opendavinci.org,
