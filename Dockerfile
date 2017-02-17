@@ -42,3 +42,5 @@ RUN zypper --non-interactive --no-gpg-checks install \
     wget
 
 RUN zypper --non-interactive --no-gpg-checks install gdb
+
+RUN zypper --non-interactive --no-gpg-checks install ncurses-devel
